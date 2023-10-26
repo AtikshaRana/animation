@@ -301,6 +301,16 @@
     }
   },
   "entryCSSFiles": {
+    "/Users/atiksha/Desktop/next-folder/animation/src/app/layout": {
+      "modules": [
+        "/Users/atiksha/Desktop/next-folder/animation/node_modules/locomotive-scroll/dist/locomotive-scroll.css",
+        "/Users/atiksha/Desktop/next-folder/animation/src/app/globals.css",
+        "/Users/atiksha/Desktop/next-folder/animation/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+      ],
+      "files": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/Users/atiksha/Desktop/next-folder/animation/src/app/page": {
       "modules": [
         "/Users/atiksha/Desktop/next-folder/animation/src/app/page.module.css",
@@ -310,16 +320,6 @@
       ],
       "files": [
         "static/css/app/page.css"
-      ]
-    },
-    "/Users/atiksha/Desktop/next-folder/animation/src/app/layout": {
-      "modules": [
-        "/Users/atiksha/Desktop/next-folder/animation/node_modules/locomotive-scroll/dist/locomotive-scroll.css",
-        "/Users/atiksha/Desktop/next-folder/animation/src/app/globals.css",
-        "/Users/atiksha/Desktop/next-folder/animation/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
-      ],
-      "files": [
-        "static/css/app/layout.css"
       ]
     }
   }
