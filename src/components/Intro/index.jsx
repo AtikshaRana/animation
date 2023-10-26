@@ -26,7 +26,6 @@ export default function Index() {
             .from(background.current, {clipPath: `inset(15%)`})
             .to(introImage.current, {height: "200px"}, 0)
     }, [])
-
     return (
         <div className={styles.homeHeader}>
             <div className={styles.backgroundImage} ref={background}>

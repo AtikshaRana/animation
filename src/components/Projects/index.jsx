@@ -6,19 +6,19 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const projects = [
     {
-        title: "Salar de Atacama",
-        src: "salar_de_atacama.jpg"
+        title: "ipsum dolor",
+        src: "red-flowers.avif"
     },
     {
-        title: "Valle de la luna",
-        src: "valle_de_la_muerte.jpeg"
+        title: "amet consectetur",
+        src: "road.avif"
     },
     {
-        title: "Miscanti Lake",
-        src: "miscani_lake.jpeg"
+        title: "consequatur cum",
+        src: "flower.jpeg"
     },
     {
-        title: "Miniques Lagoons",
+        title: "Ipsa mollitia",
         src: "miniques_lagoon.jpg"
     },
 ]
@@ -35,8 +35,7 @@ export default function Index() {
             trigger: imageContainer.current,
             pin: true,
             start: "top-=100px",
-            end: 'bottom top', 
-
+            end: 'bottom top',
         })
     }, [])
 
@@ -52,13 +51,12 @@ export default function Index() {
                     />
                 </div>
                 <div className={styles.column}>
-                    <p>The flora is characterized by the presence of high elevation wetland, as well as yellow straw, broom sedge, tola de agua and tola amaia.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur, quae placeat cumque exercitationem dolore! Accusantium!</p>
                 </div>
                 <div className={styles.column}>
-                    <p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa mollitia deserunt consequatur nam cum, cupiditate in voluptas quisquam atque quo rem illum quibusdam expedita a debitis tempore culpa, nobis nisi.</p>
                 </div>
             </div>
-
             <div className={styles.projectList}>
                 {
                     projects.map( (project, index) => {

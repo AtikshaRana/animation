@@ -3,7 +3,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
 import styles from './style.module.css';
 
-const phrases = ["Los Flamencos National Reserve", "is a nature reserve located", "in the commune of San Pedro de Atacama", "The reserve covers a total area", "of 740 square kilometres (290 sq mi)"]
+const phrases = ["Lorem ipsum dolor sit amet", "consectetur adipisicing elit. Quaerat", "earum unde ipsam ab aut labore", "The nihil quasi. Labore total area", "itaque nihil quasi. Labore, minima?"]
 
 export default function Index() {
 
@@ -17,10 +17,8 @@ export default function Index() {
     </div>
   )
 }
-
 function AnimatedText({children}) {
     const text = useRef(null);
-
     useLayoutEffect( () => {
         gsap.registerPlugin(ScrollTrigger);
         gsap.from(text.current, {
@@ -35,6 +33,5 @@ function AnimatedText({children}) {
             ease: "power3.Out"
         })
     }, [])
-
-    return <p ref={text}>{children}</p>
+    return <p ref={text}>{children}  </p>
 }
