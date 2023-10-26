@@ -1,0 +1,127 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Intro/style.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.style_homeHeader__as6Hh{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.style_backgroundImage__UFNRv{
+    width: 100%;
+    height: 140vh;
+    position: absolute;
+    filter: brightness(60%);
+}
+
+.style_backgroundImage__UFNRv img{
+    object-fit: cover;
+}
+
+.style_intro__h_vr9{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 35vh;
+}
+
+.style_intro__h_vr9 h1{
+    color: white;
+    font-size: 7vw;
+    z-index: 3;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.style_introImage__37itf{
+    filter: brightness(70%);
+    width: 350px;
+    height: 475px;
+    position: absolute;
+}
+
+.style_introImage__37itf img{
+    object-fit: cover;
+    object-position: top;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Description/style.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.style_description__38HOE{
+    position: relative;
+    color: white;
+    font-size: 3vw;
+    text-transform: uppercase;
+    margin-top: 30vw;
+    margin-left: 10vw;
+}
+.style_description__38HOE p{
+    margin: 0px;
+    position: relative;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Projects/style.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.style_projects__L9z5a{
+    position: relative;
+    color: white;
+    margin-top: 25vh;
+    padding: 10%;
+}
+
+.style_projectDescription__vkxky{
+    display: flex;
+    height: 700px;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.style_imageContainer__hfO7b{
+    position: relative;
+    height: 100%;
+    width: 40%;
+}
+
+.style_imageContainer__hfO7b img{
+    object-fit: cover;
+}
+
+.style_column__XIO9V{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    font-size: 1.6vw;
+}
+
+.style_column__XIO9V:last-of-type{
+    align-items: flex-end;
+    font-size: 1vw;
+}
+
+.style_projectList__GOVZS{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 200px;
+}
+
+.style_projectEl__Z6rFL{
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3vw;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: flex-end;
+}
+.style_projectEl__Z6rFL h2{
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+
