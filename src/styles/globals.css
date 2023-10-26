@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import 'node_modules/locomotive-scroll/dist/locomotive-scroll'; */
+
+body{
+  margin: 0px;
+  background-color: black;
+}
+.container{
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+h1{
+  color: #fff;
+}
+.hero__header h2 {
+  letter-spacing: var(--headlineSmall);
+  font-size: var(--headlineSmall);
+  text-transform: uppercase;
+  color: var(--primaryColor);
+}
+
+.scroll-section-outer {
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-section-inner {
+  height: 100vh;
+  width: 400vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.scroll-section {
+  height: 700px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.red{
+  background-color: rgb(238, 73, 73);
+}
+.green{
+  background-color: rgb(168, 244, 120);
+}
+.yellow{
+  background-color: rgb(225, 206, 62);
+}
+
+.pink{
+  background-color: rgb(214, 134, 134);
+}
+
+
+.scroll-section h3 {
+  color: #fff;
+  /* letter-spacing: var(--headlineMedium);
+  font-size: var(--headlineMedium); */
+  text-transform: uppercase;
+}

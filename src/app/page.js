@@ -4,6 +4,9 @@ import styles from './page.module.css'
 import Intro from '../components/Intro';
 import Description from '../components/Description';
 import Projects from '../components/Projects';
+import Dummy from '../components/dummy';
+import Newone from '../components/Newone';
+
 
 export default function Home() {
 
@@ -21,6 +24,9 @@ export default function Home() {
         <Intro />
         <Description />
         <Projects />
+        <Dummy/>
+        <Newone/>
+        <h1 className='text-3xl font-bold underline text-purple'>End!</h1>
       </main>
   )
 }

@@ -21,13 +21,12 @@ export default function Index() {
                 end: "+=500px",
             },
         })
-
         timeline
             .from(background.current, {clipPath: `inset(15%)`})
             .to(introImage.current, {height: "200px"}, 0)
     }, [])
     return (
-        <div className={styles.homeHeader}>
+        <section className={styles.homeHeader}>
             <div className={styles.backgroundImage} ref={background}>
                 <Image 
                     src={'/images/premium_photo-1673971700988-346588461fa7.avif'}
@@ -45,8 +44,8 @@ export default function Index() {
                             priority={true}
                         />
                     </div>
-                    <h1 data-scroll data-scroll-speed="0.7">SMOOTH DOWN</h1>
+                    <h1 data-scroll data-scroll-speed="0.7">SCROLL DOWN</h1>
              </div>
-        </div>
+        </section>
     )
 }

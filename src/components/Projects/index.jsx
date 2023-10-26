@@ -10,7 +10,7 @@ const projects = [
         src: "red-flowers.avif"
     },
     {
-        title: "amet consectetur",
+        title: "amet mollitia",
         src: "road.avif"
     },
     {
@@ -40,7 +40,7 @@ export default function Index() {
     }, [])
 
     return (
-        <div ref={container} className={styles.projects}>
+        <section ref={container} className={styles.projects}>
             <div className={styles.projectDescription}>
                 <div ref={imageContainer} className={styles.imageContainer}>
                     <Image 
@@ -66,6 +66,6 @@ export default function Index() {
                     })
                 }
             </div>
-        </div>
+        </section>
     )
 }

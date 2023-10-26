@@ -66,7 +66,7 @@
 .style_projects__L9z5a{
     position: relative;
     color: white;
-    margin-top: 25vh;
+    /* margin-top: 25vh; */
     padding: 10%;
 }
 
@@ -120,6 +120,79 @@
     margin-top: 40px;
     margin-bottom: 20px;
     cursor: default;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[9].use[5]!./src/components/dummy/style.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.style_heading__Yrga0 {
+  color: #fff;
+  text-align: center;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Newone/style.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.style_projects__ziPMe{
+    position: relative;
+    color: white;
+    /* margin-top: 25vh; */
+    padding: 10%;
+}
+
+.style_projectDescription__KYilN{
+    display: flex;
+    height: 700px;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.style_imageContainer__VuoKp{
+    position: relative;
+    height: 100%;
+    width: 40%;
+}
+
+.style_imageContainer__VuoKp img{
+    object-fit: cover;
+}
+
+.style_column__aIwyz{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    font-size: 1.6vw;
+}
+
+.style_column__aIwyz:last-of-type{
+    align-items: flex-end;
+    font-size: 1vw;
+}
+
+.style_projectList__flwCW{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 200px;
+    justify-content: flex-end;
+
+}
+
+.style_projectEl__fG4vN{
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+.style_projectEl__fG4vN h2{
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 3vw;
+    cursor: default;
+    border-bottom: 1px solid white;
+
 }
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/app/page.module.css ***!
