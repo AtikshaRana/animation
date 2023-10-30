@@ -1,15 +1,10 @@
-'use client';
-import { useEffect } from 'react';
-import styles from './page.module.css'
-import Intro from '../components/Intro';
-import Description from '../components/Description';
-import Projects from '../components/Projects';
-import Dummy from '../components/dummy';
-import Newone from '../components/Newone';
-
+import Intro from './component/Intro';
+import Description from './component/description';
+import Projects from './component/Projects';
+import Dummy from './component/dummy';
+import Newone from './component/Newone';
 
 export default function Home() {
-
   // useEffect( () => {
   //   (
   //     async () => {
@@ -20,13 +15,13 @@ export default function Home() {
   // }, [])
 
   return (
-      <main className={styles.main}>
+      <div>
         <Intro />
         <Description />
         <Projects />
         <Dummy/>
         <Newone/>
-        <h1 className='text-3xl font-bold underline text-purple'>End!</h1>
-      </main>
+        <h1 className='text-3xl font-bold underline text-red-500'>End!</h1>
+      </div>
   )
 }
