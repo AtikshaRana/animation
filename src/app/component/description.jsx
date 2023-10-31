@@ -8,7 +8,7 @@ const phrases = ["Lorem ipsum dolor sit amet", "consectetur adipisicing elit. Qu
 
 export default function Index() {
   return (
-    <div className={`  ${Styles.description}`}>
+    <div className={`${Styles.description}`}>
         {
             phrases.map( (phrase, index) => {
                 return <AnimatedText key={index}>{phrase}</AnimatedText>
@@ -33,5 +33,5 @@ function AnimatedText({children}) {
             ease: "power3.Out"
         })
     }, [])
-    return <p className=' text-white' ref={text}>{children}  </p>
+    return <p className='text-white' ref={text}>{children}</p>
 }

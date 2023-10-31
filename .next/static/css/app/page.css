@@ -16,7 +16,8 @@
 }
 
 .style_backgroundImage__VSyGj img{
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .style_intro__EhKfW{
@@ -42,8 +43,10 @@
 }
 
 .style_introImage__qBbxh img{
-    object-fit: cover;
-    object-position: top;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/styles/description.module.css ***!
@@ -84,7 +87,8 @@
 }
 
 .style_imageContainer__AcAYS img{
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .style_column__IIiUu{
@@ -145,7 +149,8 @@
 }
 
 .style_imageContainer__A69g0 img{
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .style_column__1m4l3{

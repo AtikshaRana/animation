@@ -64,6 +64,14 @@
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
@@ -96,9 +104,33 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/component/ball.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/component/ball.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/component/description.jsx": {
       "*": {
         "id": "(sc_client)/./src/app/component/description.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/component/openClose.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/component/openClose.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/component/slides.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/component/slides.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -283,6 +315,22 @@
       ],
       "async": false
     },
+    "/Users/atiksha/Desktop/next-folder/animation/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/atiksha/Desktop/next-folder/animation/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/atiksha/Desktop/next-folder/animation/node_modules/next/dist/shared/lib/head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
@@ -323,8 +371,32 @@
       ],
       "async": false
     },
+    "/Users/atiksha/Desktop/next-folder/animation/src/app/component/ball.jsx": {
+      "id": "(app-client)/./src/app/component/ball.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/atiksha/Desktop/next-folder/animation/src/app/component/description.jsx": {
       "id": "(app-client)/./src/app/component/description.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/atiksha/Desktop/next-folder/animation/src/app/component/openClose.jsx": {
+      "id": "(app-client)/./src/app/component/openClose.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/atiksha/Desktop/next-folder/animation/src/app/component/slides.jsx": {
+      "id": "(app-client)/./src/app/component/slides.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
